@@ -53,4 +53,4 @@ def encryption(size, key, line, count):
             # Проходим по всем элементам ключа
             line_new[int(i)] = line_div[j] + " "  # В соответствующий элемент списка line_new записывается значение из слова строки, добавляется пробел
             j += 1
-        return ''.join(line_new)  # Функция возвращает список line_new в виде строки
+        return ''.join(line_new)  # Функция возвращает список line_new в виде строки 
